@@ -1,0 +1,160 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  max-width: 80px;
+  max-height: 58px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 0;
+  max-width: 635px;
+  margin-top: 0;
+}
+
+.header__description {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 32px 0 0;
+  max-width: 515px;
+}
+
+.header__image {
+  max-width: 636px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+.staff {
+  background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.staff__title,
+.staff__subtitle {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.staff__subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.staff__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0;
+  margin: 40px auto 0;
+  max-width: 760px;
+}
+
+.card {
+  width: 360px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card__footer {
+  margin-top: auto;
+}
+
+.staff__title {
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 16px 0;
+  color: #000000;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 16px 0;
+  color: #000000;
+}
