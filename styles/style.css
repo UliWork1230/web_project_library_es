@@ -7,98 +7,6 @@
   line-height: 20px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
-  padding-top: 30px;
-  padding-right: 80px;
-  padding-bottom: 40px;
-  padding-left: 80px;
-  position: relative;
-  box-sizing: border-box;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav__logo {
-  width: 58px;
-  height: 80px;
-}
-
-.nav__links {
-  display: flex;
-  column-gap: 20px;
-  list-style-type: none;
-  padding: 0;
-  margin-top: 8px;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.header__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header__title {
-  font-size: 62px;
-  line-height: 76px;
-  font-weight: 500;
-  margin-top: 128px;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  max-width: 635px;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__description {
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 32px;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  max-width: 515px;
-}
-
-.header__image {
-  max-width: 636px;
-}
-
-.header__footer {
-  margin-top: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  box-sizing: border-box;
-}
-
-.header__address {
-  margin: 0;
-  color: #838383;
-}
-
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
@@ -148,22 +56,25 @@
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  padding: 24px;
-  border-radius: 8px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
   box-sizing: border-box;
-}
-
-.card__content {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .card__title {
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
-  margin: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   color: #000000;
 }
 
